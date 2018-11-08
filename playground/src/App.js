@@ -3,13 +3,16 @@ import "./App.css";
 
 import NavBar from "./Components/Bars/NavBar";
 import About from "./Components/About";
-import Projects from "./Components/Projects";
-import Contact from "./Components/Contact";
+// import Projects from "./Components/Projects";
+// import Contact from "./Components/Contact";
 import Footer from "./Components/Bars/Footer";
 
-class App extends Component {
-  state = {};
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fab } from "@fortawesome/free-brands-svg-icons";
+import { faCopyright } from "@fortawesome/free-regular-svg-icons";
+library.add(fab, faCopyright);
 
+class App extends Component {
   render() {
     return (
       <div className="App">
