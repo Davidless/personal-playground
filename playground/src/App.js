@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 import "./App.css";
 
-import NavBar from "./Components/Bars/NavBar";
+import { NavBar } from "./Components/Bars/NavBar";
+import { Footer } from "./Components/Bars/Footer";
 import About from "./Components/About";
 // import Projects from "./Components/Projects";
 // import Contact from "./Components/Contact";
-import Footer from "./Components/Bars/Footer";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
-import { faCopyright } from "@fortawesome/free-regular-svg-icons";
+import { faCopyright } from "@fortawesome/free-solid-svg-icons";
 library.add(fab, faCopyright);
 
 class App extends Component {

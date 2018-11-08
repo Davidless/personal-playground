@@ -1,14 +1,12 @@
-import React, { Component } from "react";
+import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-export default class Footer extends Component {
-  render() {
-    return (
-      <div>
-        <span>David A Morales</span>
-        <FontAwesomeIcon icon="copyright" />
-        <span>2018</span>
-      </div>
-    );
-  }
-}
+export const Footer = () => (
+  <div>
+    <span>
+      David A Morales
+      <FontAwesomeIcon icon="copyright" />
+      2018
+    </span>
+  </div>
+);
