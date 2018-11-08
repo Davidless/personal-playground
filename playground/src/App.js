@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./App.css";
-import SideMenu from "./Components/SideMenu";
 
 class App extends Component {
   state = {};
@@ -8,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <SideMenu />
+        <h1>Hello World</h1>
       </div>
     );
   }
