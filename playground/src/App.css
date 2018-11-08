@@ -1,4 +1,8 @@
 .App {
+  background-image: url("ryan-booth.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
   text-align: center;
   color: black;
 }
