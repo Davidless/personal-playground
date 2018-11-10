@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 
-import { NavBar } from "./Components/Bars/NavBar";
-import { Footer } from "./Components/Bars/Footer";
+import { Footer } from "./Components/Footer";
 import Landing from "./Components/Landing";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -14,7 +13,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <NavBar />
         <Landing />
         <Footer />
       </div>
