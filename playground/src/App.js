@@ -3,9 +3,7 @@ import "./App.css";
 
 import { NavBar } from "./Components/Bars/NavBar";
 import { Footer } from "./Components/Bars/Footer";
-import About from "./Components/About";
-// import Projects from "./Components/Projects";
-// import Contact from "./Components/Contact";
+import Landing from "./Components/Landing";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
@@ -17,7 +15,7 @@ class App extends Component {
     return (
       <div className="App">
         <NavBar />
-        <About />
+        <Landing />
         <Footer />
       </div>
     );
