@@ -12,12 +12,9 @@
   margin-top: 10px;
 }
 .Landing .LandingButtons .Project-Button {
-  width: 100px;
+  width: 110px;
   height: 40px;
   background: none;
-  color: white;
-  border: 1px solid black;
-}
-.Landing .LandingButtons .Project-Button .Project-Button :hover {
-  color: black;
+  color: #f0e0c1;
+  border: 2px solid #f0e0c1;
 }
