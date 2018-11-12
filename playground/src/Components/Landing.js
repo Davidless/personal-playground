@@ -7,14 +7,12 @@ export default class Landing extends Component {
       <div className="Landing">
         <h1 className="LandingName">David Alexander Morales</h1>
         <span className="LandingTitle">
-          Full Stack Web Developer | UX/UI Designer
+          UX/UI Designer | Full Stack Engineer | Calisthenics Enthusiast
         </span>
-        <p className="LandingBlurb">
-          I spend my time manipulating ideas on screens.
-        </p>
+        <p className="LandingBlurb">I manipulate ideas for screens. I </p>
         <div className="LandingButtons">
-          <button className="Project-Button">View Projects</button>
-          <button className="Project-Contact">Contact Me</button>
+          <button type="button" className="Project-Button">View Projects</button>
+          {/* <button className="Project-Contact">Contact Me</button> */}
         </div>
       </div>
     );
