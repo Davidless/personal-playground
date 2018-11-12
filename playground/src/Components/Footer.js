@@ -5,7 +5,7 @@ import "./Footer.css";
 export const Footer = () => (
   <div className="Footer">
     <span>
-      <FontAwesomeIcon icon="copyright" /> 2018
+      <FontAwesomeIcon icon="copyright" /> 2018 David Alexander Morales
     </span>
   </div>
 );

@@ -2,10 +2,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-image: url("saltlake.png");
+  background-image: url("bluffshot.png");
   background-position: center;
   background-size: cover;
   height: 100vh;
   text-align: center;
-  color: black;
 }
