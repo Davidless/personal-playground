@@ -7,13 +7,21 @@
   width: 100%;
   margin-bottom: 10px;
 }
+.Footer a {
+  color: #f0e0c1;
+}
+.Footer a:hover {
+  color: #f0e0c1;
+  opacity: .7;
+}
 .Footer .FooterIcons {
   display: flex;
   justify-content: space-between;
   width: 205px;
   margin-bottom: 15px;
   font-size: 0.8rem;
+  color: white;
 }
 .Footer .FooterCopy {
-  font-size: 0.5rem;
+  font-size: 0.7rem;
 }
