@@ -17,12 +17,11 @@
 .Landing .LandingBlurb {
   font-size: 1.05rem;
   width: 70%;
-  font-weight: bold;
 }
 .Landing .LandingButtons {
   display: flex;
   justify-content: space-between;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 .Landing .LandingButtons .Project-Button {
   width: 110px;
