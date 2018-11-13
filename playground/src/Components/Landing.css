@@ -5,9 +5,9 @@
   align-items: center;
   height: 100%;
   letter-spacing: 4.5px;
-  border: 2px solid black;
 }
 .Landing .LandingName {
+  text-shadow: 4px 4px gray;
   font-size: 3rem;
 }
 .Landing .LandingTitle {
