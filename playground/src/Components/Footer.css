@@ -2,12 +2,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: fixed;
+  bottom: 0;
   width: 100%;
   margin-bottom: 10px;
 }
 .Footer .FooterIcons {
   display: flex;
   justify-content: space-between;
-  width: 215px;
+  width: 205px;
   margin-bottom: 15px;
+  font-size: 0.8rem;
+}
+.Footer .FooterCopy {
+  font-size: 0.5rem;
 }

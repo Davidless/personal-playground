@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Footer } from "./Footer";
 import "./Landing.css";
 
 export default class Landing extends Component {
@@ -24,6 +25,7 @@ export default class Landing extends Component {
           </button>
           {/* <button className="Project-Contact">Contact Me</button> */}
         </div>
+        <Footer />
       </div>
     );
   }

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 
-import { Footer } from "./Components/Footer";
+// import { Footer } from "./Components/Footer";
 import Landing from "./Components/Landing";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -14,7 +14,7 @@ class App extends Component {
     return (
       <div className="App">
         <Landing />
-        <Footer />
+        {/* <Footer /> */}
       </div>
     );
   }
