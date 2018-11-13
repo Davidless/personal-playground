@@ -1,4 +1,4 @@
-# Personal Profile Playground
+# Personal Profile
 
 This is my Personal Profile created with React and Vanilla CSS.
 
