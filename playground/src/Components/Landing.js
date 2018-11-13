@@ -13,7 +13,7 @@ export default class Landing extends Component {
         <p className="LandingBlurb">
           I manipulate ideas for screens and design seamless user experiences.
           When I'm not brainstorming new concepts, I like to zone out to an
-          eclectic mix of sounds.
+          eclectic mix of sights and sounds.
           <br />
           <br />
           Project page under construction
@@ -22,7 +22,6 @@ export default class Landing extends Component {
           <button type="button" disabled className="Project-Button">
             View Projects
           </button>
-          {/* <button className="Project-Contact">Contact Me</button> */}
         </div>
         <Footer />
       </div>

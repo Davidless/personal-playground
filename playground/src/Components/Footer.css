@@ -8,10 +8,9 @@
   margin-bottom: 10px;
 }
 .Footer a {
-  color: #f0e0c1;
+  color: #f5dede;
 }
 .Footer a:hover {
-  color: #f0e0c1;
   opacity: 0.7;
 }
 .Footer .FooterIcons {
@@ -20,7 +19,6 @@
   width: 205px;
   margin-bottom: 15px;
   font-size: 0.8rem;
-  color: white;
 }
 .Footer .FooterCopy {
   font-size: 0.7rem;
